@@ -16,6 +16,11 @@ export class RecipeListComponent implements OnInit {
             "Shredded chicken in sweet chili sauce",
             "Chinese food that that is as delicious as it will get you closer to a diabetic coma",
             "https://reciperunner.com/wp-content/uploads/2015/04/SkilletChickenFajitas1.jpg"
+            ),
+        new Recipe(
+            "TEST recipe 1",
+            "Test description",
+            "https://reciperunner.com/wp-content/uploads/2015/04/SkilletChickenFajitas1.jpg"
             )
       ];
       constructor() { }
