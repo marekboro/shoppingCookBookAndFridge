@@ -1,10 +1,11 @@
-<app-header (navChoice)="onNavigate($event)" ></app-header> 
+<app-header (navChoice)="onNavigate($event)"></app-header>
 <div class="container">
-  <div class="row"> 
-    <div class="col-md-12"> 
-      <app-recipes *ngIf="selectedView==='recipes'"></app-recipes>
-      <app-shopping-list *ngIf="selectedView==='shopping list'"></app-shopping-list>
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes *ngIf="selectedView === 'recipes'"></app-recipes>
+      <app-shopping-list *ngIf="selectedView === 'shopping list'"></app-shopping-list>
+      <app-fridge *ngIf="selectedView === 'fridge'"></app-fridge>
     </div>
   </div>
 
-  </div>
+</div>

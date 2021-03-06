@@ -13,6 +13,7 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { RecipesComponent } from './recipes/recipes.component';
 import { FridgeFoodListEditComponent } from './fridge/fridge-food-list/fridge-food-list-edit/fridge-food-list-edit.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
+import { RecipeItemComponent } from './recipes/recipe-item/recipe-item.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/sh
     HeaderComponent,
     RecipesComponent,
     FridgeFoodListEditComponent,
-    ShoppingListEditComponent
+    ShoppingListEditComponent,
+    RecipeItemComponent
   ],
   imports: [
     BrowserModule
