@@ -14,6 +14,7 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { FridgeFoodListEditComponent } from './fridge/fridge-food-list/fridge-food-list-edit/fridge-food-list-edit.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { RecipeItemComponent } from './recipes/recipe-item/recipe-item.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RecipeItemComponent } from './recipes/recipe-item/recipe-item.component
     RecipeItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

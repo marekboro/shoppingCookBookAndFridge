@@ -22,4 +22,11 @@ export class ShoppingListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  receiveIngredient(ingredient:Ingredient){
+    // console.log("trying to recieve an ingredient")
+    this.ingredients.push(ingredient);
+  }
+
+  onClear(){}
+
 }
